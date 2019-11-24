@@ -7,7 +7,7 @@ const reducer = combineReducers({
     if(action.type === 'SET_PAGE'){
       state = [...state, action.page]
     }
-    if(action.type === 'DELETE_EVENT'){
+    if(action.type === 'DELETE_EMPLOYEE'){
     }
     return state;
   }
